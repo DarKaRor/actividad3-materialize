@@ -1,0 +1,178 @@
+html{
+    scroll-behavior: smooth;
+}
+
+h1,h2,h3{
+    font-family: sonicFont;
+}
+p{
+    font-family: "Comic Sans MS";
+    color:white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.banner{
+    background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url(../img/sonic_adventure_2_background_by_darkwingdumbass_ddwh7sj-pre.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:bottom;
+    box-sizing: border-box;
+   
+    margin-bottom:0px;
+}
+
+
+.banner h1{
+    font-family: segaFont;
+}
+
+.p-5{
+    padding-top:30px;
+    padding-bottom:30px;
+}
+
+.p-6{
+    margin-top:50px !important;
+    margin-bottom:50px !important;
+}
+
+.sonicquote{
+    border-left: 5px solid #2f73aa;
+}
+
+.hero{
+    background-image: url(../img/jump.jpg);
+    background-color:black;
+}
+
+.tailsquote{
+    border-left: 5px solid #dad623;
+}
+
+.knucklesquote{
+    border-left: 5px solid #da2323;
+}
+
+.eggmanquote{
+    border-left: 5px solid #808080;
+}
+
+.shadowquote{
+    border-left: 5px solid rgb(0, 0, 0);
+}
+
+.rougequote{
+    border-left: 5px solid rgb(162, 59, 194);
+}
+
+.story{
+    cursor: pointer;
+}
+
+.story img:hover{
+    transform: scale(120%,120%);
+}
+
+@font-face {
+    font-family: sonicFontI;
+    src: url(../font/vipnagorgialla\ rg\ it.otf);
+  }
+@font-face {
+      font-family: sonicFont;
+      src: url(../font/vipnagorgialla\ rg.otf);
+  }
+@font-face{
+    font-family: battleFont;
+    src: url(../font/NiseSonicBattle.TTF);
+}
+
+@font-face{
+    font-family: segaFont;
+    src:url(../font//NiseSegaSonic.TTF);
+}
+
+.logo{
+    padding-top:10% !important;
+}
+
+.line-weight-thin{
+    font-weight: 100;
+}
+
+.outline{
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.pattern {
+    background-image: linear-gradient(319deg, #2962ff 16px, transparent 17px), linear-gradient(39deg, #2962ff 16px, transparent 17px);
+    background-size: 54px 23px;
+    background-repeat: repeat-x;
+    height:23px;
+}
+
+.patternV {
+    background-image: linear-gradient(319deg, #2962ff 16px, transparent 17px), linear-gradient(39deg, #2962ff 16px, transparent 17px);
+    background-size: 54px 23px;
+    background-repeat: repeat-x;
+    height:20px;
+    width:30;
+    transform: rotateZ(90deg);
+}
+
+.mini-logo{
+    width:15%;
+}
+
+.list li{
+    margin-right:20px !important;
+    padding-left:50px !important;
+    padding-right: 50px !important;
+}
+
+.myBtn
+{
+    background-image: url(../img/container.png);
+    background-repeat: no-repeat;
+    padding-left:50px;
+    padding-right: 50px;
+    
+    background-size:100% 100%;
+    font-family: sonicFont;
+}
+
+
+@media only screen and (max-width:1000px){
+    .mini-logo{
+        width:40%;
+    }
+    
+    .list li{
+        margin:0px !important;
+        padding:0px !important;
+    }
+}
+
+@media only screen and (max-width:600px) {
+    .banner h1{
+        font-size:25px;
+        padding:0;
+        padding-top:10px;
+        margin:0;
+        word-wrap:normal;
+        overflow-wrap: break-word;
+    }
+
+    .myBtn{
+        width:100%;
+    }
+
+    .nav li{
+        width:100%;
+    }
+}
+
+@media only screen and (max-width:300px){
+    .banner h1{
+        font-size:15px;
+    }
+}
